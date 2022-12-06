@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
 
   ul {
@@ -7,7 +10,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    
   }
   
   li {
@@ -81,7 +84,10 @@
     grid-template-areas: "facebook";
   }
   
-.page-section-contact {
+.page-section-contact li {
     list-style-type: none;
-    display: block;    
+   display: inline-block;
+
+
 }
+
