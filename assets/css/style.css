@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  body {
+    margin: 10;
+    padding: 10;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  .page-section-work {
+   
+
+  }
+
+
+#link2-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap:10px;
+    row-gap:10px;
+    margin-left: 40px;
+}
+
+
+#link2-4 {
+    grid-template-areas: 
+"bbc" "facebook"
+"twitter" "vogue";
+}
+
+#bbc {
+  grid-template-areas: "bbc";
+}
+
+#twitter {
+    grid-template-areas: "twitter";
+  }
+
+  #vogue {
+    grid-template-areas: "vogue";
+  }
+
+  #facebook {
+    grid-template-areas: "facebook";
+  }
+  
+.page-section-contact {
+    list-style-type: none;
+    display: block;    
+}
