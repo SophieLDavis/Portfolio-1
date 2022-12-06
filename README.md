@@ -5,15 +5,10 @@ The project is deployed as a live website at https://github.com/SophieLDavis/Por
 ## Usage 
 The website is currently deployed with a navigation bar that contain three tabs with working links that take the user to the matching section laid further down the page. There is a Work section with images of deployed websites that link to each website.  
 
-```md
 ![Screenshot1](assets/screenshot1.png)
 
-```
-
-```md
 ![Screenshot1](assets/screenshot2.png)
 
-```
 
 ## License
 MIT License
